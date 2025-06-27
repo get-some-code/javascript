@@ -20,3 +20,13 @@ console.log(typeof null); //object
 console.log(typeof undefined); //undefined
 
 
+// -------------------------- Datatypes Summary -------------------------- //
+
+// Primitive - 7 Types: 
+// string, number, boolean, null, undefined, symbol, bigint
+
+
+// Non-Primitive (Reference):
+// array, objects, functions
+
+// JavaScript is dynamically typed language
