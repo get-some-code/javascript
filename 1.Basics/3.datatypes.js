@@ -25,8 +25,33 @@ console.log(typeof undefined); //undefined
 // Primitive - 7 Types: 
 // string, number, boolean, null, undefined, symbol, bigint
 
+// BigInt:
+const number = 154987768743186767831687878n
+
+// SYMBOL: 
+const id1 = Symbol('123')
+const id2 = Symbol('123')
+
+console.log(id1==id2);
+console.log(id1===id2);
+
+
 
 // Non-Primitive (Reference):
 // array, objects, functions
 
-// JavaScript is dynamically typed language
+// array:
+const arr1 = [1,2,3,4,5];
+
+// object:
+let obj1 = {
+    "name": "Moniii",
+    "age": 19
+}
+
+// function:
+const myfunction = function(){
+    console.log("Hello World!");
+}
+
+// Note: JavaScript is dynamically typed language
