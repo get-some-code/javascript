@@ -101,18 +101,14 @@ const products = [
 
 // MAP - A Map is a built-in JavaScript object that stores key–value pairs — just like an object but with superpowers !
 
-const m1 = new Map([
-    ["Moni", 19],
-    [2, "Moniii"],
-    [true, 11],
-    [[10,20,30], "Virat"]
-])
-console.log(m1);
+// const m1 = new Map([
+//     ["Moni", 19],
+//     [2, "Moniii"],
+//     [true, 11],
+//     [[10,20,30], "Virat"]
+// ])
+// console.log(m1);
 
-m1.set({name:"monii",age: 19}, false);
-console.log(m1.has("Rohit"));
-console.log(m1);
-
-
-
-
+// m1.set({name:"monii",age: 19}, false);
+// console.log(m1.has("Rohit"));
+// console.log(m1);
