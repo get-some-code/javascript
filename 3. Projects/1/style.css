@@ -1,0 +1,23 @@
+#parent {
+    position: relative;
+    width: 500px;
+    text-align: center;
+}
+
+#quote {
+    min-height: 100px;
+}
+
+#next {
+    position: absolute;
+    bottom: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    height: 30px;
+    font-size: 15px;
+    background-color: pink;
+    color: rgb(119, 9, 9);
+    border-color: white;
+
+}
