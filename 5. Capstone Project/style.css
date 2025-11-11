@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: orangered;
+}
+
+/* Header container */
+#top {
+    display: flex;
+    align-items: center;
+    padding: 20px 130px;
+    gap: 15px;
+}
+
+/* Logo */
+#logo {
+    height: 47px;
+    width: 49px;
+    border-radius: 12px;
+}
+
+/* Swiggy text */
+#logoText {
+    margin: 0;
+    font-size: 27px;
+    color: white;
+}
+
+/* MENU */
+.menu {
+    margin-left: auto;     /* pushes menu to right */
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-weight: 700;
+
+    padding: 8px 14px;       /* equal padding for all menu items */
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Get the App (outlined button) */
+.btn-outline a {
+    border: 2px solid white;
+}
+
+/* Sign in (filled button) */
+.btn-filled a {
+    background-color: black;
+}
+
+.menu a:hover {
+    opacity: 0.85;
+    transition: 0.2s;
+}
